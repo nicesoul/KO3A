@@ -32,3 +32,4 @@ hr {
 /* Dota section */
 /* .padding {margin-top: 25px;} */
 .Valery {display: flex; flex-direction: column; gap: 25px;}
+.Valery img {max-width: 100%;}
