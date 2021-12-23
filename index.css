@@ -7,17 +7,18 @@
 *::selection {background-color: peru;}
 .love::selection {background-color: black;}
 
-div:nth-of-type(3) {padding-top: 50px;}
-div:nth-of-type(4),div:nth-of-type(8) {padding-top: 10px;}
-div:nth-of-type(10) {padding-bottom: 20px;}
+/* div:nth-of-type(3) {padding-top: 50px;} */
+/* div:nth-of-type(4),div:nth-of-type(8) {padding-top: 10px;} */
+/* div:nth-of-type(10) {padding-bottom: 20px;} */
+/* .PS {margin-top: 50px;} */
 div {text-align: center;}
 .love {font-size: calc(1vw + 36px);color: orange;margin:0.5em 0;}
 .very {font-weight: bold;}
 .very::selection {background-color:rgb(100, 200, 100);}
 .portfolio::selection, .PS::selection {background-color:rgb(220, 220, 255);}
-.portfolio, .PS {margin:20px 0; color:green}
+.portfolio, .PS {margin:10px 0; color:green}
 .portfolio {margin-bottom: 10px;}
-.PS {margin-top: 50px;}
+
 
 a{display:inline-block;margin:10px;padding:10px;text-decoration:none;border-radius:2px;background-color: rgb(209, 236, 155); color:#000}
 a:focus,a:hover{background-color: orange ;}
@@ -27,3 +28,7 @@ hr {
     border: none;
     margin-top: 20px;
 }
+
+/* Dota section */
+/* .padding {margin-top: 25px;} */
+.Valery {display: flex; flex-direction: column; gap: 25px;}
