@@ -1,35 +1,34 @@
-* {margin: 0 auto;
-   padding: 0;
-    box-sizing: border-box;
-     font-size: larger;
-      font-family: 'Nunito', 'Trebuchet MS', sans-serif;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: larger;
+  font-family: 'Nunito', 'Trebuchet MS', sans-serif;
+  text-align:center;
 }
-*::selection {background-color: peru;}
+*::selection {background-color: gold;}
 .love::selection {background-color: black;}
+.very::selection {background-color:rgb(100, 200, 100);}
 
-/* div:nth-of-type(3) {padding-top: 50px;} */
-/* div:nth-of-type(4),div:nth-of-type(8) {padding-top: 10px;} */
-/* div:nth-of-type(10) {padding-bottom: 20px;} */
-/* .PS {margin-top: 50px;} */
-div {text-align: center;}
+div, p, h1 {margin: 10px; padding: 10px}
 .love {font-size: calc(1vw + 36px);color: orange;margin:0.5em 0;}
 .very {font-weight: bold;}
-.very::selection {background-color:rgb(100, 200, 100);}
-.portfolio::selection, .PS::selection {background-color:rgb(220, 220, 255);}
-.portfolio, .PS {margin:10px 0; color:green}
+.portfolio, .ps {margin:10px 0; color:green}
 .portfolio {margin-bottom: 10px;}
+iframe {border: none; width: 80%; height: 42vw;}
+@media screen and (min-width: 650px){iframe {width: 62%; height: 31vw;}}
 
 
-a{display:inline-block;margin:10px;padding:10px;text-decoration:none;border-radius:2px;background-color: rgb(209, 236, 155); color:#000}
+a, span {display:inline-block;margin:10px;padding:10px;text-decoration:none;border-radius:2px;background-color: rgb(209, 236, 155); color:#000}
 a:focus,a:hover{background-color: orange ;}
 hr {
 	height: 1px;
 	background-color: rgb(100, 150, 100);
-    border: none;
-    margin-top: 20px;
+  border: none;
+  margin-top: 20px;
 }
 
 /* Dota section */
 /* .padding {margin-top: 25px;} */
-.Valery {display: flex; flex-direction: column; gap: 25px;}
-.Valery img {max-width: 100%;}
+/* .Valery {display: flex; flex-direction: column; gap: 25px;} */
+/* .Valery img {max-width: 100%;} */
